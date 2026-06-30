@@ -104,8 +104,8 @@ nav a:hover, nav a.active { background: var(--primary); color: #fff; }
 }
 .mobile-menu a:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
 
-.hero {
-  background: linear-gradient(135deg, #0d2137 0%, #1A5276 55%, #1d6fa3 100%);
+.hero { min-height: 90vh; display: flex; align-items: center;
+  background: transparent;
   color: #fff; padding: 5rem 1.5rem 4rem; text-align: center; position: relative; overflow: hidden;
 }
 .hero::before {
